@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Kumar - Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 600;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+
+        header img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 15px;
+            border: 5px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0056b3;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            background-color: white;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007bff;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            font-weight: 600;
+            border-bottom: 2px solid #f0f2f5;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        ul li:before {
+            content: "\2022";
+            position: absolute;
+            left: 0;
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        input,
+        textarea {
+            margin-bottom: 20px;
+            padding: 12px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            transition: border 0.3s ease;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        button {
+            padding: 12px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                margin: 0 10px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vishal Kumar</h1>
+        <img src="res.jpeg" alt="Vishal Kumar">
+        <p>Mobile: 8580745871 | Email: <a href="mailto:vishalkumar32086@gmail.com">vishalkumar32086@gmail.com</a></p>
+    </header>
+
+    <nav>
+        <a href="#career-objective">Career Objective</a>
+        <a href="#academic-profile">Academic Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#hobbies-interests">Hobbies & Interests</a>
+        <a href="#languages">Languages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="career-objective">
+        <h2>Career Objective</h2>
+        <p>To pursue a growth oriented career in an esteemed organization where I can utilize and enhance my knowledge and skills for the development of both the organization and myself.</p>
+    </section>
+
+    <section id="academic-profile">
+        <h2>Academic Profile</h2>
+        <ul>
+            <li>Pursuing bachelor’s degree in Computer Science Engineering (C.S.E) from Chitkara University (2021-2025).</li>
+            <li>12th from Neugal Public School (2021).</li>
+            <li>10th from Neugal Public School (2019).</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>E-commerce Shopping Website (2022).</li>
+            <li>Music Player (2021).</li>
+        </ul>
+        <p><strong>Project Summary:</strong> I have proficiently designed and developed these websites using HTML, CSS, JSON, and JavaScript to ensure both responsiveness and user-friendliness.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C++</li>
+            <li>JAVA</li>
+            <li>Python</li>
+            <li>Front-end: HTML, CSS, JavaScript</li>
+            <li>Back-end: Node.js, Express</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Google - Fundamentals of Digital Marketing</li>
+            <li>Coursera - Introduction to Blockchain Technologies</li>
+            <li>Infosys - Introduction to Artificial Intelligence</li>
+            <li>Infosys - Programming Using C++</li>
+            <li>Coursera - Introduction to Cybersecurity</li>
+        </ul>
+    </section>
+
+    <section id="hobbies-interests">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Sketching</li>
+            <li>Playing Badminton</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>Hindi - Native Speaker</li>
+            <li>English</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vishal Kumar. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Embedded JavaScript
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name && email && message) {
+                alert('Thank you for contacting me, ' + name + '. I will get back to you soon.');
+                document.getElementById('contact-form').reset();
+            } else {
+                alert('Please fill out all fields.');
+            }
+        });
+    </script>
+</body>
+
+</html>
+
